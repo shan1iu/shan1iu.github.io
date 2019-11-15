@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>阿里巴巴 阿里前端社招面试总结 - SHAN</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="shan" /><meta name="description" content="" /><meta name="keywords" content="front-end, mobile apps, full-stack" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.59.1 with theme even" />
+
+
+<link rel="canonical" href="https://shan1iu.github.io/interview/%E6%8E%98%E9%87%91-%E8%92%99%E9%9D%A2%E5%A4%A7%E8%99%BE-%E9%98%BF%E9%87%8C%E5%89%8D%E7%AB%AF%E7%A4%BE%E6%8B%9B%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="阿里巴巴 阿里前端社招面试总结" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shan1iu.github.io/interview/%E6%8E%98%E9%87%91-%E8%92%99%E9%9D%A2%E5%A4%A7%E8%99%BE-%E9%98%BF%E9%87%8C%E5%89%8D%E7%AB%AF%E7%A4%BE%E6%8B%9B%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/" />
+<meta property="article:published_time" content="2019-03-21T15:11:12+08:00" />
+<meta property="article:modified_time" content="2019-03-21T15:11:12+08:00" />
+<meta itemprop="name" content="阿里巴巴 阿里前端社招面试总结">
+<meta itemprop="description" content="">
+
+
+<meta itemprop="datePublished" content="2019-03-21T15:11:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-03-21T15:11:12&#43;08:00" />
+<meta itemprop="wordCount" content="717">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="阿里巴巴 阿里前端社招面试总结"/>
+<meta name="twitter:description" content=""/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">SHAN</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/learn/">
+        <li class="mobile-menu-item"></li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">SHAN</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/learn/"></a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+  <div class="post-content">
+    <blockquote>
+<p><a href="https://juejin.im/post/5c90f573e51d450a7d7dfc75">来源: 阿里前端社招面试总结</a></p>
+</blockquote>
+
+<h3 id="1-正则匹配">1. 正则匹配</h3>
+
+<h4 id="题目"><strong>题目:</strong></h4>
+
+<ul>
+<li>format(<code>&quot;=g哈哈哈=&quot;</code>);  输出 <code>\&lt;g\&gt;哈哈哈\&lt;/g\&gt;</code></li>
+
+<li><p>format(<code>&quot;=g哈哈哈=, =g咳咳咳=&quot;</code>);  输出 <code>\&lt;g\&gt;哈哈哈\&lt;/g\&gt;\&lt;g\&gt;咳咳咳\&lt;/g\&gt;</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">format</span> <span class="o">=</span> <span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+<span class="k">return</span> <span class="nx">input</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/=g([^=]*)=/g</span><span class="p">,</span><span class="s2">&#34;&lt;g&gt;$1&lt;/g&gt;&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="nx">format</span><span class="p">(</span><span class="s2">&#34;=g哈哈哈=&#34;</span><span class="p">);</span>  <span class="c1">// &#34;&lt;g&gt;哈哈哈&lt;/g&gt;&#34;
+</span><span class="c1"></span><span class="nx">format</span><span class="p">(</span><span class="s2">&#34;=g哈哈哈=, =g咳咳咳=&#34;</span><span class="p">);</span>  <span class="c1">// &#34;&lt;g&gt;哈哈哈&lt;/g&gt;, &lt;g&gt;咳咳咳&lt;/g&gt;&#34;
+</span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+
+<h3 id="2-去除数组中连续的item">2. 去除数组中连续的item</h3>
+
+<h4 id="题目-1"><strong>题目</strong></h4>
+
+<ul>
+<li><p>merge(<code>[3,2,2,4,5,5,6,2,1]</code>);  输出 <code>[3, 2, 4, 5, 6, 2, 1]</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">merge</span> <span class="o">=</span> <span class="nx">arr</span> <span class="p">=&gt;</span> <span class="p">{</span>
+<span class="k">return</span> <span class="nb">Array</span><span class="p">.</span><span class="nx">isArray</span><span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="o">?</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">item</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+<span class="k">return</span> <span class="nx">item</span> <span class="o">!==</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+<span class="p">})</span> <span class="o">:</span> <span class="p">[]</span>
+<span class="p">}</span> <span class="c1">// 可去掉return
+</span><span class="c1"></span><span class="nx">merge</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">]);</span>  <span class="c1">// [3, 2, 4, 5, 6, 2, 1]
+</span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+
+<h3 id="3-实现函数的柯里化">3. 实现函数的柯里化</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="http://taobaofed.org/blog/2017/03/16/javascript-functional-programing/">我眼中的 JavaScript 函数式编程</a></li>
+</ul>
+
+<h3 id="4-如何用css来实现水平垂直居中">4. 如何用css来实现水平垂直居中</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://segmentfault.com/a/1190000006108996">[分享] 纯CSS完美实现垂直水平居中的6种方式</a></li>
+</ul>
+
+<h3 id="5-promise的用法以及实现原理">5. Promise的用法以及实现原理</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://juejin.im/post/5a30193051882503dc53af3c">解读Promise内部实现原理</a></li>
+</ul>
+
+<h3 id="6-前端存储方式-以及它们之间的优缺点">6. 前端存储方式，以及它们之间的优缺点</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://segmentfault.com/a/1190000013896386">几种浏览器存储方法及其优缺点</a></li>
+</ul>
+
+<h3 id="7-移动端页面适配解决方案">7. 移动端页面适配解决方案</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://juejin.im/entry/5a41b7f4f265da43152427b6">很全很全的前端本地存储讲解</a></li>
+</ul>
+
+<h3 id="8-浏览器中几种长度单位-rem-em-px-的特点和区别">8. 浏览器中几种长度单位（rem、em、px）的特点和区别</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://juejin.im/post/5b440e35e51d45191c7e2d5a">px、em和rem实战经验</a></li>
+<li></li>
+</ul>
+
+<h3 id="9-react的实现原理">9. React的实现原理</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://imweb.io/topic/579e33d693d9938132cc8d94">react diff 原理</a></li>
+<li><a href="http://www.alloyteam.com/2015/05/react-zhi-chu-shi-xian-yu-yuan-li/">React直出实现与原理</a></li>
+<li><a href="https://blog.csdn.net/a1943206465/article/details/60570567">react的工作原理</a></li>
+</ul>
+
+<h3 id="10-react中fibber是什么">10. React中Fibber是什么</h3>
+
+<p>学习资料:</p>
+
+<ul>
+<li><a href="https://segmentfault.com/a/1190000012834204">React系列—React Fiber 架构介绍资料汇总(翻译+中文资料)</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/26027085">React Fiber是什么</a></li>
+</ul>
+  </div>
+</article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:15622718578@163.com" class="iconfont icon-email" title="email"></a>
+  <a href="https://shan1iu.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">shan</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

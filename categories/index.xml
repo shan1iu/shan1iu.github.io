@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on SHAN</title>
+    <link>https://shan1iu.github.io/categories/</link>
+    <description>Recent content in Categories on SHAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>shan</copyright>
+    <lastBuildDate>Fri, 15 Nov 2019 19:11:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://shan1iu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo</title>
+      <link>https://shan1iu.github.io/categories/hugo/</link>
+      <pubDate>Fri, 15 Nov 2019 19:11:03 +0800</pubDate>
+      
+      <guid>https://shan1iu.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://shan1iu.github.io/categories/javascript/</link>
+      <pubDate>Sun, 10 Nov 2019 17:00:50 +0800</pubDate>
+      
+      <guid>https://shan1iu.github.io/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

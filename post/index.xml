@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SHAN</title>
+    <link>https://shan1iu.github.io/post/</link>
+    <description>Recent content in Posts on SHAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>shan</copyright>
+    <lastBuildDate>Fri, 15 Nov 2019 19:11:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://shan1iu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何部署hugo</title>
+      <link>https://shan1iu.github.io/post/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2hugo/</link>
+      <pubDate>Fri, 15 Nov 2019 19:11:03 +0800</pubDate>
+      
+      <guid>https://shan1iu.github.io/post/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2hugo/</guid>
+      <description>1.在Github中创建对应repo 为整个目录创建一个repo，仓局名字不限. 为public文件夹创建一个repo，仓库名字为 &amp;lt;USERNAME&amp;gt;.github.io. 2.创建C</description>
+    </item>
+    
+    <item>
+      <title>Javascript中的正则</title>
+      <link>https://shan1iu.github.io/post/javascript%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99/</link>
+      <pubDate>Sun, 10 Nov 2019 17:00:50 +0800</pubDate>
+      
+      <guid>https://shan1iu.github.io/post/javascript%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99/</guid>
+      <description>&lt;h1 id=&#34;创建正则&#34;&gt;创建正则&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正则表达式字面量 : &lt;code&gt;const regex = /ab+c/;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;调用 RegExp 对象的构造函数 : &lt;code&gt;new RegExp(pattern [, flags]);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

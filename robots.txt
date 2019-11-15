@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://shan1iu.github.io/sitemap.xml

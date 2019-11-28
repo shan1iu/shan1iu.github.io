@@ -9,27 +9,6 @@
   </url>
   
   <url>
-    <loc>https://shan1iu.github.io/post/</loc>
-    <lastmod>2019-11-28T23:06:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shan1iu.github.io/</loc>
-    <lastmod>2019-11-28T23:06:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://shan1iu.github.io/post/%E6%B5%8B%E8%AF%95%E4%BB%8E%E5%8F%A6%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81/</loc>
-    <lastmod>2019-11-28T23:06:06+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://shan1iu.github.io/categories/</loc>
     <lastmod>2019-11-15T19:11:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,6 +24,20 @@
   
   <url>
     <loc>https://shan1iu.github.io/categories/hugo/</loc>
+    <lastmod>2019-11-15T19:11:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://shan1iu.github.io/post/</loc>
+    <lastmod>2019-11-15T19:11:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://shan1iu.github.io/</loc>
     <lastmod>2019-11-15T19:11:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

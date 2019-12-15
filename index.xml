@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>shan</copyright>
-    <lastBuildDate>Fri, 15 Nov 2019 19:11:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2019 17:59:48 +0800</lastBuildDate>
     
 	<atom:link href="https://shan1iu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       
       <guid>https://shan1iu.github.io/learn/even-preview/</guid>
       <description>Based on MarkdownPreview test.md. Markdown 1 2 3 4 5 6 7 8 # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs 1 2 3 4 This is a paragraph. I am still part of the paragraph. New paragraph. This is a paragraph. I am still part of the paragraph.</description>
+    </item>
+    
+    <item>
+      <title>React Hooks中的API</title>
+      <link>https://shan1iu.github.io/post/react%E4%B8%AD%E7%9A%84hooks/</link>
+      <pubDate>Wed, 20 Nov 2019 17:59:48 +0800</pubDate>
+      
+      <guid>https://shan1iu.github.io/post/react%E4%B8%AD%E7%9A%84hooks/</guid>
+      <description>useState 1 const [state, setState] = useState(initialValue); 与类组件的this.setState不同，在hooks中更新state不会做合并操作，只会整个替换。 利用了闭包 useEffect componentDidMount + componentDidUpdate + componentWillUnmount. 每次</description>
     </item>
     
     <item>

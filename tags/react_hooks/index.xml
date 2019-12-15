@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react_hooks on SHAN</title>
+    <link>https://shan1iu.github.io/tags/react_hooks/</link>
+    <description>Recent content in react_hooks on SHAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>shan</copyright>
+    <lastBuildDate>Wed, 20 Nov 2019 17:59:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://shan1iu.github.io/tags/react_hooks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Hooks中的API</title>
+      <link>https://shan1iu.github.io/post/react%E4%B8%AD%E7%9A%84hooks/</link>
+      <pubDate>Wed, 20 Nov 2019 17:59:48 +0800</pubDate>
+      
+      <guid>https://shan1iu.github.io/post/react%E4%B8%AD%E7%9A%84hooks/</guid>
+      <description>useState 1 const [state, setState] = useState(initialValue); 与类组件的this.setState不同，在hooks中更新state不会做合并操作，只会整个替换。 利用了闭包 useEffect componentDidMount + componentDidUpdate + componentWillUnmount. 每次</description>
+    </item>
+    
+  </channel>
+</rss>
